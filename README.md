@@ -1,8 +1,14 @@
-# React + Vite
+# react-ToDo-list
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Reactの基礎を学ぶために作成したToDoリストです。
+TODOの追加・削除・完了・未完了への戻しができ、未完了のTODOは5件までに制限しています。
 
-Currently, two official plugins are available:
+## 使用技術
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React / JavaScript / Vite
+
+## 学んだこと
+
+- `useState` による状態管理
+- 入力欄・未完了リスト・完了リストのコンポーネント分割と、propsでのデータの受け渡し
+- 配列を直接変更せず、コピーしてから更新する書き方
